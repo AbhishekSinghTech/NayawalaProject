@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/background-image.jpg");
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+
+.main-nav{
+    height: 12vh;
+    background-color: #ffffff; /* White to match the flag */
+}
+
+.left{
+    width: 10%;
+}
+
+.right{
+    display: flex;
+}
+
+/* add */
+
+.travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.travel i {
+    font-size: 1.4rem;
+    color: #e03131; 
+    font-weight: 800;
+}
+
+.travel p {
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%); 
+    margin-left: 0.3rem;
+    font-weight: 600;
+}
+
+.page-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    width: 13rem;
+}
+
+.page-list p {
+    font-size: 0.9rem;
+    color: red; /* Gray color for secondary text */
+}
+
+
+/* end */
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    border-radius: 8px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 16rem;
+    border-radius: 8px;
+    background-color: #FF9933; /* Saffron from the flag */
+    color: #ffffff;
+}
+
+.btn-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-logo img{
+    border-radius: 8px;
+}
+
+.btn-icon i{
+    font-size: 30px;
+}
+
+.btn-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 12rem;
+    border-radius: 8px;
+    background-color: #138808; /* Green from the flag */
+    color: #ffffff;
+}
+
+/* Additional Styling */
+.navbar-bg {
+    background-color: #000080; /* Navy Blue from the Ashoka Chakra */
+}
+
+.btn:hover {
+    background-color: #138808; /* Green from the flag on hover */
+    color: #ffffff;
+}
+
+.btn-2:hover {
+    background-color: #FF9933; /* Saffron from the flag on hover */
+    color: #ffffff;
+}
